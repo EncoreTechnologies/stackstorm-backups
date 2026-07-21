@@ -1,5 +1,10 @@
 # Change Log
 
+## v2.0.1
+
+* Limit GitHub Actions pack tests to Python 3.10 because the current StackStorm master
+  bootstrap pins a pip release which no longer supports Python 3.8 or 3.9.
+
 ## v2.0.0
 
 * Drop Python 2.7 support
