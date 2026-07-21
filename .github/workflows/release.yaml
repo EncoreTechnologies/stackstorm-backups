@@ -16,6 +16,7 @@ jobs:
     uses: StackStorm-Exchange/ci/.github/workflows/pack-build_and_test.yaml@master
     with:
       enable-common-libs: true
+      python-version: '["3.10"]'
       #apt-cache-version: v0
       #py-cache-version: v0
 
